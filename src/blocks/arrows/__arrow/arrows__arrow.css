@@ -1,0 +1,18 @@
+.arrows__arrow {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+}
+
+.arrows__arrow::before {
+  content: "";
+  display: block;
+  width: 38px;
+  height: 38px;
+  border: 2px solid;
+  border-radius: 50%;
+  position: absolute;
+  top: -13px;
+  left: -13px;
+}

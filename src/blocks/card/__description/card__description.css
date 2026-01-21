@@ -1,0 +1,13 @@
+.card__description {
+  padding: 0 24px 32px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media screen and (max-width: 770px) {
+  .card__description {
+    padding-bottom: 36px;
+  }
+}

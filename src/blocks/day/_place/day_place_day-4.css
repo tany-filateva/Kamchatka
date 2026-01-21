@@ -1,0 +1,61 @@
+.day_place_day-4 {
+  padding-top: 105px;
+  padding-bottom: 98px;
+  background-color: rgba(0, 0, 0, 1);
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas:
+  "title slaider"
+  "description slaider";
+  position: relative;
+}
+
+.day_place_day-4::after {
+  content: "";
+  display: block;
+  background-image: url("./../../../images/day-4__birds.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 373px;
+  height: 315px;
+  position: absolute;
+  right: 102px;
+  bottom: -144px;
+}
+
+@media screen and (max-width: 1200px) {
+  .day_place_day-4 {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+    "title"
+    "description"
+    "slaider";
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .day_place_day-4 {
+    padding-top: 64px;
+    padding-bottom: 93px;
+  }
+  
+  .day_place_day-4::after {
+    right: 62px;
+    bottom: -87px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .day_place_day-4 {
+    padding-top: 112px;
+    padding-bottom: 54px;
+  }
+
+  .day_place_day-4::after {
+    width: 329px;
+    height: 278px;
+    bottom: -97px;
+    right: 0;
+  }
+}

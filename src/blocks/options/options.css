@@ -1,0 +1,12 @@
+@import url("./__title/options__title.css");
+@import url("./__subtitle/options__subtitle.css");
+@import url("./__text/options__text.css");
+@import url("./__row/options__row.css");
+@import url("./__title/_color/options__title_color_black.css");
+@import url("./__title/_color/options__title_color_white.css");
+@import url("./__subtitle/_color/options__subtitle_color_black.css");
+@import url("./__subtitle/_color/options__subtitle_color_white.css");
+@import url("./__text/_color/options__text_color_dark.css");
+@import url("./__text/_color/options__text_color_light.css");
+@import url("./__table/options__table.css");
+

@@ -1,0 +1,5 @@
+.team__slaider-items {
+  display: flex;
+  gap: 96px;
+  justify-content: space-between;
+}

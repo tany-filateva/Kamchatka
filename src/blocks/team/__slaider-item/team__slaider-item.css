@@ -1,0 +1,10 @@
+.team__slaider-item {
+  margin: 0;
+  min-width: 352px;
+}
+
+@media screen and (max-width: 768px) {
+  .team__slaider-item {
+    min-width: 289px;
+  }
+}

@@ -1,0 +1,22 @@
+.price__title {
+  margin: 0 0 43px;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.1;
+  color: rgba(18, 18, 18, 1);
+}
+
+@media screen and (max-width: 1024px) {
+  .price__title {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .price__title {
+    font-size: 32px;
+    line-height: 1.3;
+  }
+}

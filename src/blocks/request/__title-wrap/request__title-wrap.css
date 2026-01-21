@@ -1,0 +1,12 @@
+.request__title-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+@media screen and (max-width: 1024px) {
+  .request__title-wrap {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

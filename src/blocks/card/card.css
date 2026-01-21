@@ -1,0 +1,19 @@
+@import url("./__img/card__img.css");
+@import url("./__description/card__description.css");
+@import url("./__title/card__title.css");
+@import url("./__text/card__text.css");
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 770px) {
+  .card {
+    gap: 36px;
+  }
+}

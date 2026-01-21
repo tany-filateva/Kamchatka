@@ -1,0 +1,6 @@
+.footer__info {
+  padding: 0 0 47px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}

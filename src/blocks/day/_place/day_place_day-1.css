@@ -1,0 +1,51 @@
+.day_place_day-1 {
+  padding-top: 80px;
+  padding-bottom: 195px;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.31) 31%, rgba(0, 0, 0, 1) 100%), url("./../../../images/day-1__bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas:
+  "title slaider"
+  "description slaider";
+  position: relative;
+}
+
+.day_place_day-1::after {
+  content: "";
+  display: block;
+  background-image: url("./../../../images/day-1__cloud.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 1861px;
+  height: 302px;
+  position: absolute;
+  left: 0;
+  bottom: -137px;
+}
+
+@media screen and (max-width: 1200px) {
+  .day_place_day-1 {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+    "title"
+    "description"
+    "slaider";
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .day_place_day-1 {
+    padding-top: 24px;
+    padding-bottom: 195px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .day_place_day-1 {
+    padding-top: 48px;
+  }
+}

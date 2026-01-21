@@ -1,0 +1,18 @@
+.intro__subtitle {
+  margin: 27px 0 35px;
+  max-width: 571px;
+  font-family: Lato, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.3;
+  color: #313131;
+}
+
+@media screen and (max-width: 520px) {
+  .intro__subtitle {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+}

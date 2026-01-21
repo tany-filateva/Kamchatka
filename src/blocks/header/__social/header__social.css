@@ -1,0 +1,9 @@
+.header__social {
+  grid-area: social;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__social {
+    justify-self: end;
+  }
+}

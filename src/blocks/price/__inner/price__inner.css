@@ -1,0 +1,39 @@
+.price__inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas:
+  "table table info"
+  "table table btn"
+  "include options .";
+  column-gap: 137px;
+  row-gap: 70px;
+}
+
+@media screen and (max-width: 1024px) {
+  .price__inner {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:
+    "table table"
+    "include info"
+    "include btn"
+    "options .";
+    column-gap: 15px;
+    row-gap: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .price__inner {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas:
+    "table"
+    "btn"
+    "include"
+    "options"
+    "info";
+    row-gap: 40px;
+  }
+}

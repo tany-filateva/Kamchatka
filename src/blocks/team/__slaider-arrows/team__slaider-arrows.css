@@ -1,0 +1,9 @@
+.team__slaider-arrows {
+  margin-left: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .team__slaider-arrows {
+    margin-left: 0;
+  }
+}

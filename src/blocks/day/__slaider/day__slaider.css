@@ -1,0 +1,5 @@
+.day__slaider {
+  grid-area: slaider;
+  align-self: center;
+  z-index: 2;
+}

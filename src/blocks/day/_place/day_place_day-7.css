@@ -1,0 +1,42 @@
+.day_place_day-7 {
+  grid-template-columns: 60% 40%;
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas:
+  "title ."
+  "description-left ."
+  "slaider description-right"
+  "slaider options";
+  position: relative;
+  padding-bottom: 109px;
+}
+
+@media screen and (max-width: 1200px) {
+  .day_place_day-7 {
+    grid-template-areas:
+    "title title"
+    "description-left ."
+    "description-right description-right"
+    "options options"
+    "slaider slaider";
+    padding-bottom: 91px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .day_place_day-7 {
+    padding-bottom: 75px;
+    grid-template-columns: 100%;
+    grid-template-areas:
+    "title"
+    "description-left"
+    "description-right"
+    "options"
+    "slaider";
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .day_place_day-7 {
+    padding-bottom: 59px;
+  }
+}

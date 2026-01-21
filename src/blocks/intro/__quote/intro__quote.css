@@ -1,0 +1,13 @@
+.intro__quote {
+  margin: 32px 0 0;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  max-width: 299px;
+}
+
+@media screen and (max-width: 520px) {
+  .intro__quote {
+    margin-top: 19px;
+  }
+}

@@ -1,0 +1,12 @@
+.options__row {
+  border-bottom: 1px solid rgba(186, 186, 186, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 500px) {
+  .options__row {
+    flex-wrap: wrap;
+  }
+}

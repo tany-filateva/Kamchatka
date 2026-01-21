@@ -1,0 +1,7 @@
+.form__quantity-btns {
+  position: absolute;
+  right: 0;
+  bottom: 12px;
+  display: flex;
+  gap: 17px;
+}

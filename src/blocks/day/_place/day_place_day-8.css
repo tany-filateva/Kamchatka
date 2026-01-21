@@ -1,0 +1,23 @@
+.day_place_day-8 {
+  padding-top: 143px;
+  padding-bottom: 161px;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas:
+  "title"
+  "description";
+  max-width: 504px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 770px) {
+  .day_place_day-8 {
+    padding-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .day_place_day-8 {
+    padding-bottom: 0px;
+  }
+}

@@ -1,0 +1,22 @@
+@import url("./__items/slaider__items.css");
+@import url("./__item/slaider__item.css");
+@import url("./__item/_size/slaider__item_size_m.css");
+@import url("./__item/_size/slaider__item_size_s.css");
+@import url("./__item-img/slaider__item-img.css");
+@import url("./__item-caption/slaider__item-caption.css");
+@import url("./__item-title/slaider__item-title.css");
+@import url("./__item-title/_size/slaider__item-title_size_m.css");
+@import url("./__item-title/_size/slaider__item-title_size_s.css");
+@import url("./__item-text/slaider__item-text.css");
+@import url("./__item-text/_size/slaider__item-text_size_m.css");
+@import url("./__item-text/_size/slaider__item-text_size_s.css");
+@import url("./_direction/slaider_direction_reverse.css");
+@import url("./__items/_direction/slaider__items_direction_reverse.css");
+
+.slaider {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  min-width: 948px;
+}
+

@@ -1,0 +1,14 @@
+.footer__insta-btn {
+  appearance: none;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  padding: 9px 34px;
+  border-radius: 5px;
+  border-color: #fff;
+  border-width: 1px;
+  background-color: transparent;
+  cursor: pointer;
+}

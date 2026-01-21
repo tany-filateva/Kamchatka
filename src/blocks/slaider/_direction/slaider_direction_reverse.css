@@ -1,0 +1,5 @@
+@media screen and (min-width: 1200px) {
+  .slaider_direction_reverse {
+    align-items: flex-end;
+  }
+}

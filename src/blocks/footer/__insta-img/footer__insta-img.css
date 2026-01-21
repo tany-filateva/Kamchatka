@@ -1,0 +1,7 @@
+.footer__insta-img {
+  object-fit: cover;
+  max-height: 112px;
+  height: 100%;
+  max-width: 105px;
+  width: 100%;
+}

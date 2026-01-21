@@ -1,0 +1,30 @@
+.action-btn__arrow {
+  height: 24px;
+  width: 24px;
+  transform: rotate(-45deg);
+  position: relative;
+}
+
+.action-btn__arrow::before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  height: 64px;
+  width: 64px;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 767px) {
+  .action-btn__arrow {
+    height: 16px;
+    width: 16px;
+  }
+  .action-btn__arrow::before {
+    height: 48px;
+    width: 48px;
+    left: -16px;
+    top: -16px;
+  }
+}

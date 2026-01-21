@@ -1,0 +1,41 @@
+@import url(./__info/footer__info.css);
+@import url(./__caption/footer__caption.css);
+@import url(./__caption-text/footer__caption-text.css);
+@import url(./__item/footer__item.css);
+@import url(./__menu/footer__menu.css);
+@import url(./__nav/footer__nav.css);
+@import url(./__nav-link/footer__nav-link.css);
+@import url(./__insta/footer__insta.css);
+@import url(./__insta-subscribe/footer__insta-subscribe.css);
+@import url(./__insta-gallery/footer__insta-gallery.css);
+@import url(./__insta-img/footer__insta-img.css);
+@import url(./__insta-link/footer__insta-link.css);
+@import url(./__insta-btn/footer__insta-btn.css);
+@import url(./__links/footer__links.css);
+@import url(./__links-reviews/footer__links-reviews.css);
+@import url(./__links-content/footer__links-content.css);
+@import url(./__content-title/footer__content-title.css);
+@import url(./__content-subtitle/footer__content-subtitle.css);
+@import url(./__video/footer__video.css);
+@import url(./__video-img/footer__video-img.css);
+@import url(./__social/footer__social.css);
+@import url(./__social-title/footer__social-title.css);
+@import url(./__icons/footer__icons.css);
+@import url(./__icons-item/footer__icons-item.css);
+@import url(./__contacts/footer__contacts.css);
+@import url(./__contacts-top/footer__contacts-top.css);
+@import url(./__contacts-phone/footer__contacts-phone.css);
+@import url(./__contacts-phone-desc/footer__contacts-phone-desc.css);
+@import url(./__contacts-bottom/footer__contacts-bottom.css);
+@import url(./__contacts-email/footer__contacts-email.css);
+@import url(./__contacts-address/footer__contacts-address.css);
+
+.footer {
+  max-width: 100%;
+  padding: 63px 95px 0;
+  box-sizing: border-box;
+  background-color: #212121;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}

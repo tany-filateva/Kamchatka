@@ -1,0 +1,43 @@
+@import url("./__title/team__title.css");
+@import url("./__text/team__text.css");
+@import url("./__slaider/team__slaider.css");
+@import url("./__slaider-items/team__slaider-items.css");
+@import url("./__slaider-item/team__slaider-item.css");
+@import url("./__slaider-img/team__slaider-img.css");
+@import url("./__slaider-caption/team__slaider-caption.css");
+@import url("./__slaider-link/team__slaider-link.css");
+@import url("./__slaider-arrows/team__slaider-arrows.css");
+
+.team {
+  padding-right: 95px;
+  padding-left: 95px;
+  padding-top: 120px;
+  padding-bottom: 144px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+  .team {
+    padding-right: 70px;
+    padding-left: 70px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .team {
+    padding-right: 43px;
+    padding-left: 43px;
+    padding-top: 64px;
+    padding-bottom: 92px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .team {
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 48px;
+    padding-bottom: 63px;
+  }
+}

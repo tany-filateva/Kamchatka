@@ -1,0 +1,91 @@
+@import url("./__title/intro__title.css");
+@import url("./__subtitle/intro__subtitle.css");
+@import url("./__text/intro__text.css");
+@import url("./__list/intro__list.css");
+@import url("./__item/intro__item.css");
+@import url("./__item-icon/intro__item-icon.css");
+@import url("./__item-title/intro__item-title.css");
+@import url("./__item-text/intro__item-text.css");
+@import url("./__description/intro__description.css");
+@import url("./__quote/intro__quote.css");
+@import url("./__quote-text/intro__quote-text.css");
+@import url("./__quote-author/intro__quote-author.css");
+
+.intro {
+  padding: 120px 95px 147px;
+  box-sizing: border-box;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .2) 63.37%, rgba(0, 0, 0, 1) 100%), url("./../../images/intro__bg.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.intro::before {
+  content: "Камчатка";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 200px;
+  line-height: 104px;
+  color: rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+}
+
+.intro::after {
+  content: "";
+  display: block;
+  width: 803px;
+  height: 327px;
+  background-image: url("./../../images/intro__plane.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 48%;
+  right: -302px;
+  transform: rotate(3.3deg);
+}
+
+@media screen and (max-width: 1200px) {
+  .intro {
+    padding: 64px 70px 109px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding: 64px 43px 109px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding: 48px 16px 85px;
+  }
+
+  .intro::before {
+    top: 38%;
+    color: rgba(0, 0, 0, .05);
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .intro {
+    padding-bottom: 37px;
+  }
+
+  .intro::before {
+    display: none;
+  }
+
+  .intro::after {
+    width: 569px;
+    height: 232px;
+    right: -310px;
+    top: 55%;
+  }
+}

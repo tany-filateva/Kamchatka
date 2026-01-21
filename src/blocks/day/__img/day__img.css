@@ -1,0 +1,19 @@
+.day__img {
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1200px) {
+  .day__img {
+    top: 219px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .day__img {
+    top: 424px;
+  }
+}

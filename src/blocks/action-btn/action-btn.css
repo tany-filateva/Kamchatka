@@ -1,0 +1,13 @@
+@import url("./__link/action-btn__link.css");
+@import url("./__arrow/action-btn__arrow.css");
+@import url("./__arrow-img/action-btn__arrow-img.css");
+@import url("./_color/action-btn_color_white.css");
+@import url("./__arrow-link/action-btn__arrow-link.css");
+@import url("./_color/action-btn_color_black.css");
+
+.action-btn {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+  height: 64px;
+}

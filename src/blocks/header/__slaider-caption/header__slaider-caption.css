@@ -1,0 +1,10 @@
+.header__slaider-caption {
+  font-family: Lato, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 2;
+  color: #fff;
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  margin: 0;
+}

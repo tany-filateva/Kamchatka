@@ -1,0 +1,12 @@
+.form__btn {
+  grid-area: btn;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(244, 118, 72, 1);
+  padding: 8px 32px;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 1);
+}

@@ -1,0 +1,3 @@
+.arrows__arrow_disabled::before {
+  opacity: .5;
+}

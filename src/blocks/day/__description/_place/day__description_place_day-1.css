@@ -1,0 +1,9 @@
+.day__description_place_day-1 {
+  max-width: 461px;
+}
+
+@media screen and (max-width: 1200px) {
+  .day__description_place_day-1 {
+    max-width: 100%;
+  }
+}

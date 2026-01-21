@@ -1,0 +1,6 @@
+.footer__insta {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 15px;
+}

@@ -1,0 +1,5 @@
+@media screen and (min-width: 1200px) {
+  .slaider__items_direction_reverse {
+    flex-direction: row-reverse;
+  }
+}

@@ -1,0 +1,4 @@
+.form__quantity {
+  grid-area: quantity;
+  position: relative;
+}

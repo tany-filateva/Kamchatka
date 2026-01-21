@@ -1,0 +1,6 @@
+.day__description_pos_right {
+  grid-area: description-right;
+  max-width: 480px;
+  align-self: center;
+}
+

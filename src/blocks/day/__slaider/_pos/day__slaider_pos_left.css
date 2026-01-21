@@ -1,0 +1,5 @@
+@media screen and (min-width: 1200px) {
+  .day__slaider_pos_left {
+    justify-self: end;
+  }
+}

@@ -1,0 +1,6 @@
+.footer__menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 43px;
+}

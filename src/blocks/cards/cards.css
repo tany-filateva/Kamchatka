@@ -1,0 +1,29 @@
+@import url("./__title/cards__title.css");
+@import url("./__items/cards__items.css");
+
+.cards {
+  background-color: rgba(241, 241, 241, 1);
+  padding: 80px 95px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+@media screen and (max-width: 1200px) {
+  .cards {
+    padding: 80px 70px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cards {
+    padding: 80px 43px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cards {
+    padding: 40px 16px;
+    gap: 32px;
+  }
+}

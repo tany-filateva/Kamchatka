@@ -1,0 +1,23 @@
+.header__offer {
+  font-family: Montserrat, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 2;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 25px 0 0;
+  padding: 0 24px;
+  background-image: linear-gradient(to right, #FB8B62, #F47648);
+  border-radius: 16px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+  .header__offer {
+    margin-top: 24px;
+    padding: 16px 8px;
+    font-size: 18px;
+    line-height: 1.3;
+  }
+}

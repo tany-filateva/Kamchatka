@@ -1,0 +1,16 @@
+@import url("./__item/social__item.css");
+
+.social {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .social {
+    gap: 19px;
+  }
+}

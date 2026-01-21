@@ -1,0 +1,11 @@
+.slaider__item_size_m {
+  width: 320px;
+  height: 320px;
+}
+
+@media screen and (max-width: 380px) {
+  .slaider__item_size_m {
+    width: 280px;
+    height: 280px;
+  }
+}

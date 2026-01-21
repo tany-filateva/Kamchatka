@@ -1,0 +1,13 @@
+@import url("./__arrow/arrows__arrow.css");
+@import url("./__arrow/_disabled/arrows__arrow_disabled.css");
+@import url("./__arrow-img/arrows__arrow-img.css");
+@import url("./__arrow-img/_direction/arrows__arrow-img_direction_left.css");
+@import url("./_color/arrows_color_white.css");
+@import url("./_color/arrows_color_black.css");
+
+.arrows {
+  display: flex;
+  width: 68px;
+  justify-content: space-between;
+  padding: 0 13px;
+}

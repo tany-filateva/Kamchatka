@@ -1,0 +1,30 @@
+.intro__list {
+  margin: 64px 0 381px;
+  max-width: 758px;
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, auto));
+  gap: 64px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__list {
+    gap: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__list {
+    margin-top: 52px;
+    margin-bottom: 344px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .intro__list {
+    margin-top: 48px;
+    margin-bottom: 230px;
+    gap: 10px;
+  }
+}

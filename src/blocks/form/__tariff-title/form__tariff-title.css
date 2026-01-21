@@ -1,0 +1,8 @@
+.form__tariff-title {
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(33, 33, 33, 1);
+  margin-bottom: 23px;
+}

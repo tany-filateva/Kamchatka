@@ -1,0 +1,21 @@
+.cards__title {
+  margin: 0;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: .7;
+  color: rgba(0, 0, 0, 1);
+}
+
+@media screen and (max-width: 1024px) {
+  .cards__title {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    line-height: 1.3;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cards__title {
+    font-size: 32px;
+  }
+}

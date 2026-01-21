@@ -1,0 +1,31 @@
+.footer__video {
+  width: 63px;
+  height: 102px;
+  position: relative;
+}
+
+.footer__video::before {
+  content: "";
+  display: block;
+  background: none;
+  width: 33px;
+  height: 33px;
+  border: solid 1px #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 34%;
+  left: 25%;
+}
+
+.footer__video::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 7px solid transparent;
+  border-left: 10px solid #fff;
+  border-bottom: 7px solid transparent;
+  position:absolute;
+  top: 45%;
+  left: 47%;
+}

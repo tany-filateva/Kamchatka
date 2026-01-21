@@ -1,0 +1,29 @@
+.day_place_day-6 {
+  padding-bottom: 217px;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas:
+  "title slaider"
+  "description slaider"
+  "options slaider";
+  position: relative;
+}
+
+@media screen and (max-width: 1200px) {
+  .day_place_day-6 {
+    padding-bottom: 134px;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+    "title"
+    "description"
+    "options"
+    "slaider";
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .day_place_day-6 {
+    padding-bottom: 89px;
+  }
+}

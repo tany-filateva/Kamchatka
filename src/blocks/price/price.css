@@ -1,0 +1,66 @@
+@import url("./__title/price__title.css");
+@import url("./__inner/price__inner.css");
+@import url("./__table/price__table.css");
+@import url("./__table-row/price__table-row.css");
+@import url("./__table-title/price__table-title.css");
+@import url("./__table-num/price__table-num.css");
+@import url("./__info/price__info.css");
+@import url("./__link/price__link.css");
+@import url("./__list/price__list.css");
+@import url("./__list-title/price__list-title.css");
+@import url("./__list-items/price__list-items.css");
+@import url("./__list-item/price__list-item.css");
+@import url("./__list-text/price__list-text.css");
+@import url("./__list/_place/price__list_place_include.css");
+@import url("./__list/_place/price__list_place_options.css");
+@import url("./__list-title/_place/price__list-title_place_include.css");
+@import url("./__list-title/_place/price__list-title_place_options.css");
+
+.price {
+  padding: 120px 96px 134px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.price::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 96px;
+  right: 96px;
+  height: 4px;
+  background-color: rgba(33, 33, 33, 1);
+}
+
+@media screen and (max-width: 1200px) {
+  .price {
+    padding-right: 70px;
+    padding-left: 70px;
+  }
+
+  .price::after {
+    left: 70px;
+    right: 70px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .price {
+    padding: 64px 43px;
+  }
+
+  .price::after {
+    left: 43px;
+    right: 43px;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .price {
+    padding: 40px 16px;
+  }
+  .price::after {
+    left: 16px;
+    right: 16px;
+}
+}

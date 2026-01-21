@@ -1,0 +1,8 @@
+.card__text {
+  margin: 0;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(90, 90, 90, 1);
+}

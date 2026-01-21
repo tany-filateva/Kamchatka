@@ -1,0 +1,11 @@
+.day__description_place_day-5 {
+  max-width: 536px;
+  margin-left: 64px;
+}
+
+@media screen and (max-width: 1200px) {
+  .day__description_place_day-5 {
+    max-width: 100%;
+    margin-left: 0;
+  }
+}

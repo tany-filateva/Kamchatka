@@ -1,0 +1,10 @@
+.price__table {
+  max-width: 801px;
+  grid-area: table;
+}
+
+@media screen and (max-width: 1024px) {
+  .price__table {
+    min-width: 100%;
+  }
+}

@@ -1,0 +1,12 @@
+.header__slaider-items {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+  .header__slaider-items {
+    gap: 17px;
+  }
+}

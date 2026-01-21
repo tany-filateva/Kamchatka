@@ -1,0 +1,4 @@
+.day__description_pos_left {
+  grid-area: description-left;
+  max-width: 548px;
+}

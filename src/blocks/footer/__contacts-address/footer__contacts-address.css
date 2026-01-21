@@ -1,0 +1,18 @@
+.footer__contacts-address {
+  margin: 0 0 0 23px;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  position: relative;
+}
+
+.footer__contacts-address::before {
+  content: url("./../../../images/footer__icon-placeholder.png");
+  display: inline-block;
+  width: 16px;
+  position: absolute;
+  left: -23px;
+  bottom: -3px;
+}

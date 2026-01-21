@@ -1,0 +1,9 @@
+.day__title_place_day-6 {
+  max-width: 505px;
+}
+
+@media screen and (max-width: 1200px) {
+  .day__title_place_day-6 {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,5 @@
+.form__tariff-item {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+}

@@ -1,0 +1,18 @@
+.price__list-title_place_include {
+  color: rgba(39, 85, 83, 1);
+}
+
+.price__list-title_place_include::before {
+  content: url("./../../../../images/check-mark.png");
+  position: absolute;
+  left: -35px;
+  bottom: -3px;
+  width: 26px;
+}
+
+@media screen and (max-width: 768px) {
+  .price__list-title_place_include::before {
+    width: 20px;
+    bottom: -5px;
+  }
+}

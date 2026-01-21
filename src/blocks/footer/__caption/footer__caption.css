@@ -1,0 +1,15 @@
+.footer__caption {
+  padding: 22px 0px;
+  position: relative;
+}
+
+.footer__caption::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #363636;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

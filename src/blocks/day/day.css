@@ -1,0 +1,76 @@
+@import url("./__title/day__title.css");
+@import url("./__title/_place/day__title_place_day-1.css");
+@import url("./__title/_color/day__title_color_black.css");
+@import url("./__title/_color/day__title_color_orange.css");
+@import url("./__title/_color/day__title_color_white.css");
+@import url("./__description/day__description.css");
+@import url("./__description/_place/day__description_place_day-1.css");
+@import url("./__text/day__text.css");
+@import url("./__text/_weight/day__text_weight_bold.css");
+@import url("./__text/_weight/day__text_weight_normal.css");
+@import url("./__text/_color/day__text_color_black.css");
+@import url("./__text/_color/day__text_color_grey.css");
+@import url("./__text/_color/day__text_color_white.css");
+@import url("./__link/day__link.css");
+@import url("./__slaider/day__slaider.css");
+@import url("./_place/day_place_day-1.css");
+@import url("./_place/day_place_day-4.css");
+@import url("./__title/_place/day__title_place_day-4.css");
+@import url("./__description/_place/day__description_place_day-4.css");
+@import url("./_place/day_place_day-3.css");
+@import url("./__title/_place/day__title_place_day-3.css");
+@import url("./__description/_place/day__description_place_day-3.css");
+@import url("./__slaider/_pos/day__slaider_pos_left.css");
+@import url("./_place/day_place_day-5-6.css");
+@import url("./_place/day_place_day-5.css");
+@import url("./__title/_place/day__title_place_day-5.css");
+@import url("./__description/_place/day__description_place_day-5.css");
+@import url("./_place/day_place_day-6.css");
+@import url("./__options/day__options.css");
+@import url("./__title/_place/day__title_place_day-6.css");
+@import url("./__description/_place/day__description_place_day-6.css");
+@import url("./__options/_place/day__options_place_day-6.css");
+@import url("./_place/day_place_day-2.css");
+@import url("./__title/_place/day__title_place_day-2.css");
+@import url("./__description/_pos/day__description_pos_left.css");
+@import url("./__description/_pos/day__description_pos_right.css");
+@import url("./__slaider/_place/day__slaider_place_day-3.css");
+@import url("./__slaider/_place/day__slaider_place_day-5.css");
+@import url("./__slaider/_place/day__slaider_place_day-2.css");
+@import url("./__img/day__img.css");
+@import url("./_place/day_place_day-7-8.css");
+@import url("./_place/day_place_day-7.css");
+@import url("./__title/_place/day__title_place_day-7.css");
+@import url("./__options/_place/day__options_place_day-7.css");
+@import url("./_place/day_place_day-8.css");
+@import url("./__title/_place/day__title_place_day-8.css");
+@import url("./__description/_place/day__description_place_day-8.css");
+
+
+.day {
+  padding-right: 95px;
+  padding-left: 95px;
+  overflow: hidden;
+  display: grid;
+}
+
+@media screen and (max-width: 1200px) {
+  .day {
+    padding-right: 70px;
+    padding-left: 70px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .day {
+    padding-right: 43px;
+    padding-left: 43px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .day {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}
