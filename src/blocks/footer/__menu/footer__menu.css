@@ -4,3 +4,9 @@
   justify-content: start;
   gap: 43px;
 }
+
+@media screen and (max-width: 580px) {
+  .footer__menu {
+    gap: 39px;
+  }
+}

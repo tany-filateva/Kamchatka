@@ -12,7 +12,6 @@
 
 @media screen and (max-width: 500px) {
   .options__text {
-    padding-top: 0;
     padding-right: 0;
   }
 }

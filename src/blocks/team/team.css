@@ -12,7 +12,7 @@
   padding-right: 95px;
   padding-left: 95px;
   padding-top: 120px;
-  padding-bottom: 144px;
+  padding-bottom: 148px;
   overflow: hidden;
   background-color: #fff;
 }
@@ -28,8 +28,6 @@
   .team {
     padding-right: 43px;
     padding-left: 43px;
-    padding-top: 64px;
-    padding-bottom: 92px;
   }
 }
 
@@ -37,6 +35,13 @@
   .team {
     padding-right: 16px;
     padding-left: 16px;
+    padding-top: 64px;
+    padding-bottom: 95px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .team {
     padding-top: 48px;
     padding-bottom: 63px;
   }

@@ -1,5 +1,4 @@
 .day_place_day-5 {
-  padding-top: 124px;
   padding-bottom: 191px;
   grid-template-columns: repeat(2, 50%);
   grid-template-rows: repeat(2, auto);
@@ -12,7 +11,6 @@
 @media screen and (max-width: 1200px) {
   .day_place_day-5 {
     padding-top: 16px;
-    padding-bottom: 92px;
     grid-template-columns: 100%;
     grid-template-rows: repeat(3, auto);
     grid-template-areas:
@@ -22,9 +20,14 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .day_place_day-5 {
+    padding-bottom: 95px;
+  }
+}
+
 @media screen and (max-width: 520px) {
   .day_place_day-5 {
-    padding-top: 0;
     padding-bottom: 63px;
   }
 }

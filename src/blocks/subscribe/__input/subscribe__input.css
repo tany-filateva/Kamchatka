@@ -1,18 +1,17 @@
-.form__input {
+.subscribe__input {
   width: 100%;
+  max-width: 563px;
   border: 0;
-  border-bottom: 1px solid rgba(33, 33, 33, 1);
-  box-sizing: border-box;
-  padding: 0 0 10px 2px;
+  border-bottom: 1px solid #fff;
   font-family: Lato, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 1.2;
-  color: black;
+  color: rgba(255, 255, 255, 1);
   background-color: transparent;
 }
 
-.form__input::placeholder {
+.subscribe__input::placeholder {
   font-family: Lato, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 20px;

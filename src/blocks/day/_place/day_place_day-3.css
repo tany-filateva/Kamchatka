@@ -29,21 +29,25 @@
     width: 530px;
     height: 299px;
     right: -79px;
-    bottom: -109px;
+    bottom: 0px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .day_place_day-3 {
     padding-top: 64px;
-    padding-bottom: 72px;
+    padding-bottom: 136px;
+  }
+
+  .day_place_day-3::after {
+    bottom: -40px;
   }
 }
 
 @media screen and (max-width: 520px) {
   .day_place_day-3 {
     padding-top: 48px;
-    padding-bottom: 55px;
+    padding-bottom: 52px;
   }
 
   .day_place_day-3::after {

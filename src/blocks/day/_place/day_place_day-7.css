@@ -7,7 +7,8 @@
   "slaider description-right"
   "slaider options";
   position: relative;
-  padding-bottom: 109px;
+  padding-bottom: 15px;
+  padding-top: 86px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -18,13 +19,12 @@
     "description-right description-right"
     "options options"
     "slaider slaider";
-    padding-bottom: 91px;
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 768px) {
   .day_place_day-7 {
-    padding-bottom: 75px;
+    padding-top: 33px;
     grid-template-columns: 100%;
     grid-template-areas:
     "title"
@@ -37,6 +37,6 @@
 
 @media screen and (max-width: 520px) {
   .day_place_day-7 {
-    padding-bottom: 59px;
+    padding-top: 29px;
   }
 }

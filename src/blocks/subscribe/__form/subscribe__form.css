@@ -1,10 +1,13 @@
-.form__tariff-row {
+.subscribe__form {
+  width: 100%;
+  max-width: 722px;
   display: flex;
+  gap: 24px;
   justify-content: space-between;
 }
 
 @media screen and (max-width: 520px) {
-  .form__tariff-row {
+  .subscribe__form {
     flex-direction: column;
   }
 }

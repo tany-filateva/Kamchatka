@@ -58,13 +58,15 @@
 
 @media screen and (max-width: 1024px) {
   .intro {
-    padding: 64px 43px 109px;
+    padding: 64px 43px 85px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    padding: 48px 16px 85px;
+    padding-top: 48px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .intro::before {

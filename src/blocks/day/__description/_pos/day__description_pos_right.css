@@ -4,3 +4,20 @@
   align-self: center;
 }
 
+@media screen and (max-width: 1200px) {
+  .day__description_pos_right {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .day__description_pos_right {
+    max-width: 75%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .day__description_pos_right {
+    max-width: 100%;
+  }
+}

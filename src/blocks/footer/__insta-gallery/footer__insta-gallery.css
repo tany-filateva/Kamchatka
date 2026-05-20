@@ -6,3 +6,16 @@
   grid-template-columns: repeat(3, auto);
   grid-template-rows: repeat(2, auto);
 }
+
+@media screen and (max-width: 580px) {
+  .footer__insta-gallery {
+    gap: 7px;
+    grid-template-columns: repeat(3, 91px);
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .footer__insta-gallery {
+    grid-template-columns: repeat(3, auto);
+  }
+}

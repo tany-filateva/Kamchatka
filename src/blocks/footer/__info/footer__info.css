@@ -4,3 +4,17 @@
   justify-content: space-between;
   align-items: flex-start;
 }
+
+@media screen and (max-width: 1160px) {
+  .footer__info {
+    flex-wrap: wrap;
+    row-gap: 21px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .footer__info {
+    flex-direction: column;
+    row-gap: 48px;
+  }
+}

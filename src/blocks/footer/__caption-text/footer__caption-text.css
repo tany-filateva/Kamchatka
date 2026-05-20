@@ -7,3 +7,9 @@
   margin: 0;
   padding-left: 9px;
 }
+
+@media screen and (max-width: 580px) {
+  .footer__caption-text {
+    padding-left: 0px;
+  }
+}

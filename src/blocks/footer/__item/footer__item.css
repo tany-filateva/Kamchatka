@@ -1,5 +1,6 @@
 .footer__item {
   position: relative;
+  box-sizing: border-box;
 }
 
 .footer__item:not(:last-child) {
@@ -19,4 +20,46 @@
   position: absolute;
   top: 0;
   right: 0;
+}
+
+@media screen and (max-width: 1160px) {
+  .footer__item {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .footer__item:nth-child(odd) {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .footer__item:nth-child(even)::after {
+    content: none;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .footer__item {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+.footer__item:not(:first-child) {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .footer__item:not(:last-child) {
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .footer__item:not(:last-child)::after {
+    content: none;
+  }
 }

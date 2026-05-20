@@ -1,16 +1,14 @@
-.footer__contacts-phone {
-  margin: 0;
+.footer__links-title {
   font-family: Inter, Arial, Helvetica, sans-serif;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 32px;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 24px;
   color: #fff;
-  text-decoration: none;
-  white-space: nowrap;
 }
 
 @media screen and (max-width: 1160px) {
-  .footer__contacts-phone {
+  .footer__links-title {
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-weight: 600;
   }

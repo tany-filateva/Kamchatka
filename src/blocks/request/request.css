@@ -3,23 +3,14 @@
 @import url("./__social/request__social.css");
 
 .request {
-  padding: 96px 96px 218px 96px;
+  padding-top: 96px;
+  padding-bottom: 218px;
   display: flex;
   justify-content: space-between;
 }
 
-@media screen and (max-width: 1200px) {
-  .request {
-    padding-right: 70px;
-    padding-left: 70px;
-  }
-}
-
 @media screen and (max-width: 1024px) {
   .request {
-    padding-right: 43px;
-    padding-left: 43px;
-    padding-top: 64px;
     padding-bottom: 149px;
     flex-direction: column;
     gap: 40px;
@@ -28,10 +19,15 @@
 
 @media screen and (max-width: 768px) {
   .request {
-    padding-right: 16px;
-    padding-left: 16px;
-    padding-top: 40px;
+    padding-top: 64px;
     padding-bottom: 251px;
     gap: 24px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .request {
+    padding-top: 40px;
+    padding-bottom: 340px;
   }
 }

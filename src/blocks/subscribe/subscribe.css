@@ -1,0 +1,39 @@
+@import url("./__request/subscribe__request.css");
+@import url("./__request-title/subscribe__request-title.css");
+@import url("./__request-subtitle/subscribe__request-subtitle.css");
+@import url("./__form/subscribe__form.css");
+@import url("./__input/subscribe__input.css");
+@import url("./__btn/subscribe__btn.css");
+
+.subscribe {
+  padding-bottom: 158px;
+  position: relative;
+}
+
+.subscribe::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: url("././../../images/subscribe-img.png");
+  background-size: 305px 332px;
+  left: -100px;
+  top: 0px;
+  width: 305px;
+  height: 332px;
+}
+
+@media screen and (max-width: 520px) {
+  .subscribe::before {
+    background-size: 214px 229px;
+    width: 214px;
+    height: 229px;
+    top: -238px;
+    left: -70px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .subscribe {
+    padding-bottom: 54px;
+  }
+}

@@ -12,8 +12,9 @@
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 770px) {
   .day__img {
-    top: 424px;
+    display: none;
   }
 }
+

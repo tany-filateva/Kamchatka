@@ -1,0 +1,16 @@
+.subscribe__request-subtitle {
+  margin: 0;
+  padding-bottom: 32px;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 1);
+}
+
+@media screen and (max-width: 520px) {
+  .subscribe__request-subtitle {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}

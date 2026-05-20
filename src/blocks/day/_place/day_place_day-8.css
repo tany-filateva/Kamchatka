@@ -1,23 +1,26 @@
 .day_place_day-8 {
-  padding-top: 143px;
+  padding-top: 241px;
   padding-bottom: 161px;
   grid-template-columns: 100%;
   grid-template-rows: repeat(2, auto);
   grid-template-areas:
   "title"
   "description";
-  max-width: 504px;
   margin: 0 auto;
+  background-image: url("./../../../images/day-8__bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: padding-box;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 768px) {
   .day_place_day-8 {
-    padding-bottom: 16px;
+    padding-bottom: 64px;
   }
 }
 
 @media screen and (max-width: 520px) {
   .day_place_day-8 {
-    padding-bottom: 0px;
+    padding-bottom: 45px;
   }
 }

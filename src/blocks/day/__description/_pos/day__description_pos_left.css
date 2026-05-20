@@ -2,3 +2,21 @@
   grid-area: description-left;
   max-width: 548px;
 }
+
+@media screen and (max-width: 1200px) {
+  .day__description_pos_left {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .day__description_pos_left {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .day__description_pos_left {
+    max-width: 100%;
+  }
+}

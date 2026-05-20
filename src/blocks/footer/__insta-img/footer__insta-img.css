@@ -5,3 +5,10 @@
   max-width: 105px;
   width: 100%;
 }
+
+@media screen and (max-width: 580px) {
+  .footer__insta-img {
+    max-height: 97px;
+    max-width: 91px;
+  }
+}

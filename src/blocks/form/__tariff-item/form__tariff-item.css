@@ -3,3 +3,9 @@
   gap: 3px;
   align-items: center;
 }
+
+@media screen and (max-width: 520px) {
+  .form__tariff-item {
+    gap: 10px;
+  }
+}
