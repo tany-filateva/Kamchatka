@@ -20,6 +20,7 @@
   top: 0px;
   width: 305px;
   height: 332px;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 520px) {
